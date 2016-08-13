@@ -36,6 +36,8 @@ int main (){
 	no6.proximo = &no7;
 	no7.proximo = NULL;
 
+	// teste de modifição de branch
+
 	i = no1.proximo -> valor;
 
 	printf("%i - ", i);
